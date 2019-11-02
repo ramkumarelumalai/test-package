@@ -1,0 +1,19 @@
+{
+    "name": "rekasso/contact",
+    "description": "This package is used to send the email to the admin and to store the data within the database as well",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ram kumar",
+            "email": "ramkumaarelumalai@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Rekasso\\Contact\\": "src/"
+        }
+    }
+}
