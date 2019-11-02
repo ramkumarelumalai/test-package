@@ -15,5 +15,12 @@
         "psr-4": {
             "Rekasso\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rekasso\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
